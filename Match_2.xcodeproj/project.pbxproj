@@ -54,6 +54,7 @@
 		9B030CE61F85368D007D90C6 /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B030CC81F85368D007D90C6 /* Icon-256.png */; };
 		9B030CE71F85368D007D90C6 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B030CC91F85368D007D90C6 /* Icon-512.png */; };
 		9B030CE81F85368D007D90C6 /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B030CCA1F85368D007D90C6 /* Icon-1024.png */; };
+		9B41B1AD1F87EDEA005820F6 /* Super.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B41B1AC1F87EDEA005820F6 /* Super.png */; };
 		9BD1CD471F86B53500C7DBAD /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD1CD461F86B53500C7DBAD /* Refresh.png */; };
 		9BD89FE81F86CC1F0034383A /* 1-Oursnoel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD89FE71F86CC1F0034383A /* 1-Oursnoel.png */; };
 		9C19E1221F841A89002B8F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C19E1211F841A89002B8F94 /* AppDelegate.swift */; };
@@ -111,6 +112,7 @@
 		9B030CC81F85368D007D90C6 /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-256.png"; path = "appiconmaker/Icon-256.png"; sourceTree = "<group>"; };
 		9B030CC91F85368D007D90C6 /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-512.png"; path = "appiconmaker/Icon-512.png"; sourceTree = "<group>"; };
 		9B030CCA1F85368D007D90C6 /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-1024.png"; path = "appiconmaker/Icon-1024.png"; sourceTree = "<group>"; };
+		9B41B1AC1F87EDEA005820F6 /* Super.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Super.png; path = Images/Super.png; sourceTree = "<group>"; };
 		9BD1CD461F86B53500C7DBAD /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Refresh.png; path = Images/Refresh.png; sourceTree = "<group>"; };
 		9BD89FE71F86CC1F0034383A /* 1-Oursnoel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1-Oursnoel.png"; path = "Images/1-Oursnoel.png"; sourceTree = "<group>"; };
 		9C19E11E1F841A89002B8F94 /* Match_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Match_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,6 +206,7 @@
 		9C19E1331F841B13002B8F94 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9B41B1AC1F87EDEA005820F6 /* Super.png */,
 				9BD89FE71F86CC1F0034383A /* 1-Oursnoel.png */,
 				9BD1CD461F86B53500C7DBAD /* Refresh.png */,
 				9B030C891F8535C9007D90C6 /* 2-Escargot.png */,
@@ -310,6 +313,7 @@
 				9B030C9B1F8535C9007D90C6 /* 2-Escargot.png in Resources */,
 				9B030CAB1F8535C9007D90C6 /* Question.png in Resources */,
 				9B030CD21F85368D007D90C6 /* Icon-55.png in Resources */,
+				9B41B1AD1F87EDEA005820F6 /* Super.png in Resources */,
 				9B030CD81F85368D007D90C6 /* Icon-76.png in Resources */,
 				9BD1CD471F86B53500C7DBAD /* Refresh.png in Resources */,
 				9B030CA41F8535C9007D90C6 /* 11-Abeille.png in Resources */,

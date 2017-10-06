@@ -8,6 +8,7 @@ import UIKit
 class ViewController: UIViewController {
     
     //--------------------------------------
+    //Declaration et conexion des cards
     
     
     @IBOutlet weak var back_1: UIView!
@@ -74,6 +75,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var imgView20: UIImageView!
     
     
+    @IBOutlet weak var `super`: UIImageView!
     @IBOutlet weak var Card_1: UIView!
     @IBOutlet weak var Card_2: UIView!
     @IBOutlet weak var Card_3: UIView!
@@ -96,10 +98,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var Card_20: UIView!
     
     //------------------------------------------
+    // Declaration des variables globais
+ 
     
     var arrayOfImageViews: [UIImageView]!
     var arrayOfAnimalNames = ["1-Oursnoel.png", "1-Oursnoel.png", "2-Escargot.png", "2-Escargot.png", "3-Tortue.png", "3-Tortue.png", "4-Abeille.png", "4-Abeille.png", "5-Homard.png", "5-Homard.png", "6-Cochon.png", "6-Cochon.png", "7-Eagle.png", "7-Eagle.png", "8-Giraffe.png", "8-Giraffe.png", "9-Requin.png", "9-Requin.png", "10-Souris.png", "10-Souris.png"]
-   
+    
     var arrayOfRandomAnimalNames = [String]()
     var arrayChosenCards = [String]()
     
@@ -113,6 +117,7 @@ class ViewController: UIViewController {
     
     
     //------------------------------------------
+    //Atribuition initial des cards
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -124,6 +129,7 @@ class ViewController: UIViewController {
     }
     
     //------------------------------------------
+    //Action de button de card en selection
 
     @IBAction func showCard(_ sender: UIButton) {
         if arrayOfHidingFronts.count == 2 {
@@ -241,6 +247,7 @@ class ViewController: UIViewController {
     }
     
     //------------------------------------------
+    //Tourne le card
     
     func flipCard(from: UIView, to: UIView) {
         let transitionOptions: UIViewAnimationOptions = [.transitionFlipFromRight, .showHideTransitionViews]
@@ -255,6 +262,7 @@ class ViewController: UIViewController {
     }
 
     //------------------------------------------
+    //Atribuiton les images des animaux
     
     func setImagesToCards() {
         var number = 0
@@ -265,6 +273,7 @@ class ViewController: UIViewController {
     }
 
     //------------------------------------------ 
+    //Distribuition aleatory de figures des animaux
     
     func randomAnimals() {
         let numberOfAnimals = arrayOfAnimalNames.count
@@ -276,6 +285,7 @@ class ViewController: UIViewController {
     }
 
    //------------------------------------------
+   //Verification si les deux cards sont egals
     
     func verification() {
         if arrayChosenCards.count == 2 {
@@ -294,6 +304,7 @@ class ViewController: UIViewController {
     }
  
     //------------------------------------------
+    //Masque les cards
     
     func hideCards() {
         arrayOfCards[0].isHidden = true
@@ -303,6 +314,7 @@ class ViewController: UIViewController {
    
     
     //-------------------------------------------
+    //Masque les deux cards
    
     func resetCards() {
         if arrayOfShowingBacks.count == 2 {
@@ -316,7 +328,7 @@ class ViewController: UIViewController {
  
     
     //------------------------------------------
-  
+    //Tourne les cards
     
     func reFlip() {
         for index in 0..<arrayOfShowingBacks.count {
@@ -328,6 +340,7 @@ class ViewController: UIViewController {
     
     
     //------------------------------------------
+    //Initialization de tous les cards
     
     @IBAction func Reset(_ sender: UIButton) {
         for card in cards {

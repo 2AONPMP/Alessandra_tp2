@@ -24,9 +24,70 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="19-wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="CVO-A4-eSw">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fwJ-cw-Hqj">
+                                <rect key="frame" x="0.0" y="9" width="201" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="05Z-bn-tmq"/>
+                                    <constraint firstAttribute="width" constant="201" id="TJ5-Os-CxD"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="MA GARDERIE      ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.21303740408818372" blue="0.24203131239538767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="19" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="www.magarderie.com">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="19" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8aZ-cE-j21">
+                                <rect key="frame" x="297" y="20" width="174" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="MMB-9O-BQo"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="P">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.60285418894880971" blue="0.06107708425110947" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="ChalkboardSE-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="etit">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.1434127613967785" blue="0.19415261900848557" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="ChalkboardSE-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="M">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.60285418894880971" blue="0.06107708425110947" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="ChalkboardSE-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="emo">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.22918874218048968" blue="0.25118461769440736" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="ChalkboardSE-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kh7-YY-b79" userLabel="Card_1">
                                 <rect key="frame" x="73" y="95" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o5f-pe-7jg" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -61,7 +122,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uAy-zM-bX1" userLabel="Card_2">
                                 <rect key="frame" x="230" y="95" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Yx-3J-FJf" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -96,7 +157,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4bL-jM-ovD" userLabel="Card_3">
                                 <rect key="frame" x="388" y="95" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6U6-jx-G1y" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -131,7 +192,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cPE-C5-OZp" userLabel="Card_4">
                                 <rect key="frame" x="546" y="95" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Oj-0T-M1v" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -166,7 +227,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x4d-lZ-GAU" userLabel="Card_5">
                                 <rect key="frame" x="73" y="253" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rkk-jA-F5Z" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -201,7 +262,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pO1-Ty-E0X" userLabel="Card_6">
                                 <rect key="frame" x="230" y="253" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4hU-rJ-cce" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -236,7 +297,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ubo-99-fT7" userLabel="Card_7">
                                 <rect key="frame" x="388" y="253" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="inX-pn-dFB" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -271,7 +332,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D7j-HE-UmT" userLabel="Card_8">
                                 <rect key="frame" x="546" y="253" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BkX-Z5-Fbv" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -304,57 +365,9 @@
                                     </view>
                                 </subviews>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMF-R0-jwe">
-                                <rect key="frame" x="0.0" y="935" width="117" height="89"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="117" id="KPw-IM-4I9"/>
-                                    <constraint firstAttribute="height" constant="89" id="htI-Vh-tjj"/>
-                                </constraints>
-                                <state key="normal" image="Refresh.png"/>
-                                <connections>
-                                    <action selector="Reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QgG-1n-An0"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8aZ-cE-j21">
-                                <rect key="frame" x="310" y="20" width="147" height="67"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="67" id="MMB-9O-BQo"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="M">
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="0.60285418894880971" blue="0.06107708425110947" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="36" name="ChalkboardSE-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="emo">
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="0.27632479035955593" blue="0.18222065644713581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="36" name="ChalkboardSE-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="K">
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="0.67645474037966768" blue="0.041931696926482132" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="36" name="ChalkboardSE-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="id">
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="0.31736377388065717" blue="0.2074813700491388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="36" name="ChalkboardSE-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="da4-se-kXL" userLabel="Card_9">
                                 <rect key="frame" x="73" y="411" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="86J-Ey-euR" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -389,7 +402,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xbf-ca-QIj" userLabel="Card_10">
                                 <rect key="frame" x="230" y="412" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DMa-GK-LJC" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -424,7 +437,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kFH-vs-aKK" userLabel="Card_11">
                                 <rect key="frame" x="388" y="411" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0P8-kH-cyy" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -459,7 +472,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lvt-qo-8em" userLabel="Card_12">
                                 <rect key="frame" x="546" y="412" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yik-Sk-zgU" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -494,7 +507,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JmV-ln-x8O" userLabel="Card_13">
                                 <rect key="frame" x="73" y="569" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WiG-0N-tkK" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -529,7 +542,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GrZ-qO-7k2" userLabel="Card_14">
                                 <rect key="frame" x="230" y="569" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Wm-8T-e6J" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -564,7 +577,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e5V-Dv-xx0" userLabel="Card_15">
                                 <rect key="frame" x="388" y="569" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AoS-F4-mm0" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -599,7 +612,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kgP-Lm-mRZ" userLabel="Card_16">
                                 <rect key="frame" x="546" y="569" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sgA-aG-KBT" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -634,7 +647,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uX2-NE-RB4" userLabel="Card_17">
                                 <rect key="frame" x="73" y="727" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wv8-qA-V63" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -669,7 +682,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oTI-n6-FPJ" userLabel="Card_18">
                                 <rect key="frame" x="230" y="727" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b4V-Ce-O2t" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -704,7 +717,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxg-j4-iOw" userLabel="Card_19">
                                 <rect key="frame" x="388" y="727" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Xu-CC-dCL" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -739,7 +752,7 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1kZ-rY-Bh3" userLabel="Card_20">
                                 <rect key="frame" x="546" y="727" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N5s-SD-C3a" userLabel="back">
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -772,17 +785,30 @@
                                     </view>
                                 </subviews>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMF-R0-jwe">
+                                <rect key="frame" x="0.0" y="935" width="117" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="117" id="KPw-IM-4I9"/>
+                                    <constraint firstAttribute="height" constant="89" id="htI-Vh-tjj"/>
+                                </constraints>
+                                <state key="normal" image="Refresh.png"/>
+                                <connections>
+                                    <action selector="Reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QgG-1n-An0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CVO-A4-eSw" secondAttribute="bottom" id="3uk-q5-qbm"/>
                             <constraint firstItem="CVO-A4-eSw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8dn-qU-g8l"/>
                             <constraint firstAttribute="trailing" secondItem="CVO-A4-eSw" secondAttribute="trailing" id="B2R-32-pr1"/>
+                            <constraint firstItem="fwJ-cw-Hqj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="9" id="Jup-jf-dRC"/>
                             <constraint firstItem="CVO-A4-eSw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Y42-J9-f92"/>
                             <constraint firstItem="CVO-A4-eSw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="e1B-gx-wf8"/>
                             <constraint firstItem="CMF-R0-jwe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="f2l-oT-XLa"/>
                             <constraint firstItem="8aZ-cE-j21" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="njX-K4-sE7"/>
                             <constraint firstItem="CVO-A4-eSw" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="tkw-pW-JRz"/>
+                            <constraint firstItem="fwJ-cw-Hqj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uK6-Be-0cM"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CMF-R0-jwe" secondAttribute="bottom" id="uvt-dT-EmO"/>
                             <constraint firstItem="8aZ-cE-j21" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xWp-qS-svy"/>
                         </constraints>
